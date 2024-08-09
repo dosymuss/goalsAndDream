@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root {
+  --josefin: "Josefin Sans", sans-serif;
+  --monserat: "Montserrat", sans-serif;
+  --inria: "Inria Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+  width: 4px;
+  /* Минимальная ширина скроллбара */
+}
+
+/* Стили для дорожки скроллбара */
+html::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Стили для ползунка */
+html::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Стили для ползунка при наведении */
+html::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Скрытие кнопок регулировки */
+html::-webkit-scrollbar-button {
+  display: none;
+}
